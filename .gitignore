@@ -1,0 +1,31 @@
+# Virtual Environment
+venv/
+*.pyc
+*.pyo
+__pycache__/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Data Files
+data/raw/*
+!data/raw/README.md  # Allow a README to document dataset usage
+data/processed/
+data/features/
+
+# Model Artifacts
+models/
+reports/
+figures/
+
+# Logs & Temp Files
+logs/
+*.log
+*.tmp
+
+# Environment & Dependency Files
+.env
+.DS_Store
+
+# Ignore system-specific files
+Thumbs.db
